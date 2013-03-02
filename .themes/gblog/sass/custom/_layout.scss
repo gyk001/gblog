@@ -1,0 +1,152 @@
+// Here you can easily change your sites's layout.
+// To give it a try, uncomment some of the lines below, make changes, rebuild your blog, and see how it works.
+
+$header-font-size: 1em;
+$header-padding-top: 0.5em;
+$header-padding-bottom: 0.5em;
+
+//$max-width: 1350px;
+//$indented-lists: true;
+
+// Padding used for layout margins
+//$pad-min: 18px;
+//$pad-narrow: 25px;
+//$pad-medium: 35px;
+//$pad-wide: 55px;
+
+// Sidebar widths used in media queries
+//$sidebar-width-medium: 240px;
+//$sidebar-pad-medium: 15px;
+//$sidebar-pad-wide: 20px;
+//$sidebar-width-wide: 300px;
+
+
+$header-desc-font-size: 0.6em;
+
+a:visited {
+	text-decoration: none;
+	color: #548B02;
+	outline: none;
+}
+a:link {
+	text-decoration: none;
+	color: #548B02;
+}
+
+body {
+	> header {
+		> hgroup{
+			float: left;
+			> h1 {
+				text-shadow: 0px 1px 0px #999,0px 2px 0px #888,0px 3px 0px #777,0px 4px 0px #666,0px 5px 0px #555,0px 6px 0px #444,0px 7px 0px #333,0px 8px 7px #001135;
+			}
+			> h2 {
+	  			> a {
+	  				color: peru;
+	  				text-decoration : none;
+	  			}
+			}
+			.desc {
+	  			font-size: $header-desc-font-size;
+	  			color: #AAA;
+			}			
+		}
+		img.qrcode {
+			float:right;
+			margin-top:1em;
+		}
+	}
+	article header {
+		padding-top: 0em;
+	}
+	font-size:0.8em;
+}
+
+@media screen and (max-width: 650px) {
+	html{
+		background: #252525;
+		body {
+			> header {
+				img.qrcode {
+					display:none
+				}
+			}
+		}
+	}
+}
+
+
+#content {
+	background-image: url("../images/paper.png");
+
+	.blog-index {
+	  > article{
+	   	h1 {
+			font-size: 24px;
+		}
+		> .entry-content {
+			font-size: 0.8em;
+		}
+		> footer {
+			> a[rel="full-article"] {
+				font-size: 0.6em;
+				padding: 0em 0.8em;
+			}
+		}
+	  }
+	}
+
+	.posthead{
+	  padding-bottom:10px;
+	  margin:0px 0px;
+	}
+	.posthead h1{
+	  font-size:24px;
+	  line-height:26px;
+	  font-family:"Microsoft Yahei",PMingLiU,Verdana;
+	  margin:0px 20px 0 20px;
+	}
+	.posthead h1 a{
+	  color:#82aa47;
+	  font-size:24px;
+	  text-decoration:none;
+	  transition: color 1s;
+	  -moz-transition: coior 1s; /* Firefox 4 */
+	  -webkit-transition: color 1s; /* Safari and Chrome */
+	  -o-transition: color 1s; /* Opera */
+	}
+	.posthead h1 a:visited{
+	  color:#82aa47;
+	  text-decoration:none;
+	}
+	.posthead h1 a:hover{
+	  color:#333;
+	  text-decoration:none;
+	}
+	.posthead .postdata{
+	  font-family:"Microsoft Yahei",Tahoma,Helvetica,Arial,sans-serif;
+	  color:#666;
+	  font-size:12px;
+	}
+	.posthead .p-time{
+	    font-family:"Microsoft Yahei",Tahoma,Helvetica,Arial,sans-serif;
+	  font-size:11px;
+	  color:#fff;
+	  font-weight:bold;
+	  text-align:center;
+	  line-height:15px;
+	  margin-right:10px;
+	  float:left;
+	  height:64px;
+	  width:56px;
+	  background:url(/images/date.gif) no-repeat top left;
+	  display:inline;
+	}
+	.p-time .day{
+	  font-size:22px;
+	  margin-top:7px;
+	  margin-bottom:3px;
+	}
+}
+
+
