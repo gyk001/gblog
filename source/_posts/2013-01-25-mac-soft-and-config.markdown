@@ -13,15 +13,16 @@ slug: "mac-soft-and-config"
 
 - [Alfred][]：神器，不解释
 - [Homebrew][]：安装管理各种GNU软件，没有这个真心活不下去，必装
+- [MacVim][]：已经对vim有强烈的依赖，没这个东东地球还会转么，这个是OSX下的GVIM
+- [Zsh][]：比Bash更强大的Shell，比较喜欢它的参数补全
+- [Sublime Text 2][st2]：唯一一款能让人一见钟情的编辑器，已经出3了，不过好多插件不兼容
 - [GoAgentX][]：身为天朝国民，你懂的
 - [XtraFinder][]：Finder的增强外挂，强烈推荐
-- [Sublime Text 2][st2]：唯一一款会让人一见钟情的编辑器
 - [SizeWell][]：调整Finder窗口最大化按钮的行为，很实用。（此为SIMBL插件）
+- [XMind][]：尤其适合我这种思想混乱的人
+- [Go2Shell][]:顾名思义，支持iTerm2，配置:`open -a Go2Shell --args config`
 - [SIMBL][]:系统修改定制之必备品，喜欢折腾的肯定都熟悉<!-- more -->
 - [iTerm 2][iTerm2]：非常好用的终端 
-- [Zsh][]：比Bash更强大一点儿的Shell
-- [MacVim][]：已经对vim有强烈的依赖，没这个东东地球还会转么，这个是OSX下的GVIM
-- [XMind][]：尤其适合我这种思想混乱的人
 - Xcode：偶尔玩玩Objc需要，而且好多工具依赖Command Line Tools，必装
 - [Eclipse][]：身为一个java从业者，装之
 - CleanMyMac 512G的硬盘容不得一些乱七八糟的东西浪费，螚请就清
@@ -43,3 +44,4 @@ slug: "mac-soft-and-config"
 [MacVim]:http://macvim.org/OSX
 [Eclipse]:http://eclipse.org
 [SIMBL]:http://www.culater.net/software/SIMBL/SIMBL.php
+[Go2Shell]:https://itunes.apple.com/cn/app/go2shell/id445770608?mt=12#
