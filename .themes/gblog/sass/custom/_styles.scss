@@ -1,4 +1,53 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
+.posthead{
+	height:64px;
+	> .postdata{
+		> a{
+			text-decoration: none;
+			color: #548B02;			
+		}
+		> a:visited{
+			color: #548B02;	
+		}
+		> a:hover{
+			color: #548B02;	
+		}
+	}
+}
 
+article {
+	.entry-content{
+		font-family:Helvetica, arial, freesans, clean, sans-serif;
+		a{
+			text-decoration: none;
+			color: #548B02;			
+		}
+		a:visited{
+			color: #548B02;	
+		}
+		a:hover{
+			color: #548B02;	
+		}
+	}
+}
+
+aside.sidebar {
+	a{
+		color:rgb(75, 75, 75);
+	}
+	a:visited{
+		color:rgb(75, 75, 75);
+	}
+	a:hover{	
+		color:rgb(75, 75, 75);
+	}	
+	a:link {
+		color:rgb(75, 75, 75);
+	}
+	a:active{
+		color:rgb(75, 75, 75);
+	}
+
+}

@@ -1,0 +1,13 @@
+---
+layout: post
+title: "the-life"
+date: 2013-02-05 23:14
+comments: true
+categories: "生活"
+tags: []
+slug: "the-life"
+published: false
+
+---
+
+再一次参加葬礼，人这一辈子，终归都是一股青烟、一抔黄土，
