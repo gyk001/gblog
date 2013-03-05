@@ -30,6 +30,20 @@ git-flow相当于多组预定义git命令脚本，可以用一个命令完成串
 ```sh
 brew install git-flow
 ```
+假如出现`shFlags/src/shflags`错误，如
+```sh
+➜ git flow init
+/usr/local/bin/gitflow-shFlags: line 1: shFlags/src/shflags: No such file or directory
+/usr/local/bin/git-flow: line 78: FLAGS: command not found
+fatal: 'flow' appears to be a git command, but we were not
+able to execute it. Maybe git-flow is broken?
+```
+执行以下代码
+```sh
+rm -f /usr/local/bin/gitflow-shFlags
+cp /Library/Caches/Homebrew/git-flow--git/shFlag /usr/local/bin/gitflow-shFlags
+```
+
 如果你也用[oh-my-zsh]()，可以打开git-flow插件以获取补全提示，
 开启方法很简单，在`~/.zshrc`的`plugins`里加入`git-flow`即可
 ```sh
