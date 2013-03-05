@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "我使用的Mac OS X软件及其配置"
+author: gyk001
 date: 2013-01-25 22:03
 comments: true
 categories: 系统 

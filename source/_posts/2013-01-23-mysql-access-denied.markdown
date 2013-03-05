@@ -1,12 +1,14 @@
 ---
 layout: post
 title: "MySQL远程无法连接"
+author: gyk001
 date: 2013-01-23 22:51
 comments: true
 categories: 数据库
 tags: [MySQL,CentOS]
 description: MySQL无法连接，报错：access denied for user
 slug: mysql-access-denied
+published: false
 
 ---
 

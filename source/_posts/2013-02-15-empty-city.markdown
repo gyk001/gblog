@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "空城"
+author: gyk001
 date: 2013-02-15 02:13
 comments: true
 categories: "生活"
 tags: ["歌词"]
 slug: "empty_city"
+published: false
 
 ---
 
