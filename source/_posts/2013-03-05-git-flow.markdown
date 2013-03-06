@@ -18,7 +18,7 @@ published: true
 
 Git仅凭便利的本地库操作，强大的多远程库支持，优雅的工作现场就地切换足以让人一见钟情，上面说的三点只是从Svn切换至Git最容易感受到的几个特性。那Hg如何，无可否认Hg也很优秀，但Hg不支持轻量级分支让我果断放弃它了。如果作为一个开发者你还没有了解过Git，那么我强烈建议你体验一下Git的灵活和强大，你一定会爱上它！
 
-今天要说的不是Git本身，而是一款git扩展([git-flow]())，一个让利器升华成神器的东东，又或者说一个让神器走入人间的西西。
+今天要说的不是Git本身，而是一款git扩展([git-flow][]，一个让利器升华成神器的东东，又或者说一个让神器走入人间的西西。
 
 git-flow相当于多组预定义git命令脚本，可以用一个命令完成串很复杂的命令，比如要开发一个特性分支、给某个稳定版本打补丁或者将开发的新特性生成一个稳定版本，这些原来需要很多步骤的操作，git-flow一句搞定。
 
@@ -26,7 +26,7 @@ git-flow相当于多组预定义git命令脚本，可以用一个命令完成串
 
 好吧，反正我用了，您随意...
 <!--more-->
-先安装，有了[HomeBrew]()，So easy!!!
+先安装，有了[HomeBrew][]，So easy!!!
 ```sh
 brew install git-flow
 ```
@@ -44,7 +44,7 @@ rm -f /usr/local/bin/gitflow-shFlags
 cp /Library/Caches/Homebrew/git-flow--git/shFlag /usr/local/bin/gitflow-shFlags
 ```
 
-如果你也用[oh-my-zsh]()，可以打开git-flow插件以获取补全提示，
+如果你也用[oh-my-zsh][]，可以打开git-flow插件以获取补全提示，
 开启方法很简单，在`~/.zshrc`的`plugins`里加入`git-flow`即可
 ```sh
 plugins=(git git-flow)
